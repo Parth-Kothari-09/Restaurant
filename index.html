@@ -1,840 +1,531 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en-IN">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- 
-    - primary meta tags
-  -->
-  <title>Grilli - Amazing & Delicious Food</title>
-  <meta name="title" content="Grilli - Amazing & Delicious Food">
-  <meta name="description" content="This is a Restaurant html template made by codewithsadee">
-<!-- Google tag (gtag.js) -->
+  <!-- Primary SEO -->
+  <title>Grilli Restaurant Mumbai | Fine Dining in Ghatkopar — Italian, Continental & Indian Cuisine</title>
+  <meta name="description" content="Grilli Restaurant in Ghatkopar, Mumbai offers fine dining with Italian, Continental, and Indian cuisine. Reserve a table, explore our seasonal menu, and enjoy hygienic, delicious food.">
+  <meta name="keywords" content="Grilli Restaurant, restaurant in Ghatkopar, Mumbai fine dining, Italian restaurant Mumbai, Indian cuisine Ghatkopar, Continental food Mumbai, book a table Mumbai">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://restaurant-jade-delta.vercel.app/"><!-- Update if your live URL is different -->
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="restaurant">
+  <meta property="og:site_name" content="Grilli Restaurant">
+  <meta property="og:title" content="Grilli Restaurant Mumbai | Fine Dining in Ghatkopar">
+  <meta property="og:description" content="Fine dining in Ghatkopar, Mumbai — Italian, Continental & Indian cuisine. Book a table and view our seasonal menu.">
+  <meta property="og:url" content="https://restaurant-jade-delta.vercel.app/">
+  <meta property="og:image" content="https://restaurant-jade-delta.vercel.app/assets/images/hero-slider-1.jpg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Grilli Restaurant Mumbai | Fine Dining in Ghatkopar">
+  <meta name="twitter:description" content="Italian, Continental & Indian cuisine in Ghatkopar, Mumbai. Reserve your table today.">
+  <meta name="twitter:image" content="https://restaurant-jade-delta.vercel.app/assets/images/hero-slider-1.jpg">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- Preload Above-the-fold Images -->
+  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg" imagesrcset="./assets/images/hero-slider-1.jpg 1880w">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+
+  <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PCPR0SRW3P"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-  
     gtag('config', 'G-PCPR0SRW3P');
   </script>
-    <!-- 
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
 
-  <!-- 
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
-
-  <!-- 
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!-- 
-    - preload images
-  -->
-  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
-  <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
-  <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+  <!-- JSON-LD Structured Data: Restaurant -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Grilli Restaurant Mumbai",
+    "image": ["https://restaurant-jade-delta.vercel.app/assets/images/hero-slider-1.jpg"],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Ghatkopar",
+      "addressLocality": "Mumbai",
+      "addressRegion": "Maharashtra",
+      "postalCode": "400077",
+      "addressCountry": "IN"
+    },
+    "telephone": "+91 1010101010",
+    "servesCuisine": ["Italian", "Continental", "Indian"],
+    "priceRange": "₹₹",
+    "url": "https://restaurant-jade-delta.vercel.app/",
+    "menu": "https://restaurant-jade-delta.vercel.app/#menu",
+    "acceptsReservations": "True",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+        "opens": "08:00",
+        "closes": "22:00"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/",
+      "https://www.instagram.com/",
+      "https://twitter.com/"
+    ]
+  }
+  </script>
+ 
+  <style>
+  html, body { overflow-y:auto !important; height:auto !important; }
+  </style>
 
 </head>
 
 <body id="top">
+  <!-- Skip Link for Accessibility -->
+  <a class="skip-to-content" href="#main-content">Skip to content</a>
 
-  <!-- 
-    - #PRELOADER
-  -->
-
-  <div class="preload" data-preaload>
-    <div class="circle"></div>
-    <p class="text">Grilli</p>
-  </div>
-
-
-
-
-
-  <!-- 
-    - #TOP BAR
-  -->
-
-  <div class="topbar">
+  <!-- Top Bar -->
+  <div class="topbar" role="contentinfo">
     <div class="container">
-
-      <address class="topbar-item">
-        <div class="icon">
-          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
-        </div>
-
-        <span class="span">
-          Restaurant, Ghatkopar, Mumbai, Maharashtra, India
-        </span>
+      <address class="topbar-item" aria-label="Restaurant address">
+        <div class="icon"><ion-icon name="location-outline" aria-hidden="true"></ion-icon></div>
+        <span class="span">Grilli Restaurant, Ghatkopar, Mumbai, Maharashtra, India</span>
       </address>
 
-      <div class="separator"></div>
+      <div class="separator" aria-hidden="true"></div>
 
-      <div class="topbar-item item-2">
-        <div class="icon">
-          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
-        </div>
-
-        <span class="span">Daily : 8.00 am to 10.00 pm</span>
+      <div class="topbar-item item-2" aria-label="Opening hours">
+        <div class="icon"><ion-icon name="time-outline" aria-hidden="true"></ion-icon></div>
+        <span class="span">Daily: 8:00 am – 10:00 pm</span>
       </div>
 
-      <a href="tel:+11234567890" class="topbar-item link">
-        <div class="icon">
-          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
-        </div>
-
+      <a href="tel:+911010101010" class="topbar-item link" aria-label="Call Grilli Restaurant">
+        <div class="icon"><ion-icon name="call-outline" aria-hidden="true"></ion-icon></div>
         <span class="span">+91 1010101010</span>
       </a>
 
-      <div class="separator"></div>
+      <div class="separator" aria-hidden="true"></div>
 
-      <a href="mailto:booking@restaurant.com" class="topbar-item link">
-        <div class="icon">
-          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
-        </div>
-
+      <a href="mailto:booking@restaurant.com" class="topbar-item link" aria-label="Email Grilli Restaurant">
+        <div class="icon"><ion-icon name="mail-outline" aria-hidden="true"></ion-icon></div>
         <span class="span">booking@restaurant.com</span>
       </a>
-
     </div>
   </div>
 
-
-
-
-
-  <!-- 
-    - #HEADER
-  -->
-
-  <header class="header" data-header>
+  <!-- Header / Navigation -->
+  <header class="header" data-header role="banner">
     <div class="container">
-
-      <a href="#" class="logo">
-        <img src="./assets/images/logo.svg" width="160" height="50" alt="Grilli - Home">
+      <a href="#home" class="logo" aria-label="Grilli Restaurant Home">
+        <img src="./assets/images/logo.svg" width="160" height="50" alt="Grilli Restaurant logo">
       </a>
 
-      <nav class="navbar" data-navbar>
-
-        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+      <nav class="navbar" data-navbar aria-label="Primary">
+        <button class="close-btn" aria-label="Close menu" data-nav-toggler>
           <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
         </button>
 
-        <a href="#" class="logo">
-          <img src="./assets/images/logo.svg" width="160" height="50" alt="Grilli - Home">
+        <a href="#home" class="logo" aria-label="Grilli Restaurant Home (internal)">
+          <img src="./assets/images/logo.svg" width="160" height="50" alt="Grilli Restaurant logo small">
         </a>
 
         <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <a href="#home" class="navbar-link hover-underline active">
-              <div class="separator"></div>
-
-              <span class="span">Home</span>
-            </a>
-          </li>
-
-          <li class="navbar-item">
-            <a href="#menu" class="navbar-link hover-underline">
-              <div class="separator"></div>
-
-              <span class="span">Menus</span>
-            </a>
-          </li>
-
-          <li class="navbar-item">
-            <a href="#about" class="navbar-link hover-underline">
-              <div class="separator"></div>
-
-              <span class="span">About Us</span>
-            </a>
-          </li>
-
-          <li class="navbar-item">
-            <a href="#" class="navbar-link hover-underline">
-              <div class="separator"></div>
-
-              <span class="span">Our Chefs</span>
-            </a>
-          </li>
-
-          <li class="navbar-item">
-            <a href="#" class="navbar-link hover-underline">
-              <div class="separator"></div>
-
-              <span class="span">Contact</span>
-            </a>
-          </li>
-
+          <li class="navbar-item"><a href="#home" class="navbar-link hover-underline active"><span class="span">Home</span></a></li>
+          <li class="navbar-item"><a href="#menu" class="navbar-link hover-underline"><span class="span">Menu</span></a></li>
+          <li class="navbar-item"><a href="#about" class="navbar-link hover-underline"><span class="span">About</span></a></li>
+          <li class="navbar-item"><a href="#features" class="navbar-link hover-underline"><span class="span">Why Us</span></a></li>
+          <li class="navbar-item"><a href="#contact" class="navbar-link hover-underline"><span class="span">Contact</span></a></li>
         </ul>
 
         <div class="text-center">
           <p class="headline-1 navbar-title">Visit Us</p>
-
-          <address class="body-4">
-            Restaurant, Ghatkopar <br>
-            Mumbai, Maharashtra, India
-          </address>
-
-          <p class="body-4 navbar-text">Open: 9.30 am - 2.30pm</p>
-
+          <address class="body-4">Ghatkopar, Mumbai, Maharashtra, India</address>
+          <p class="body-4 navbar-text">Open: 9:30 am – 2:30 pm</p>
           <a href="mailto:booking@grilli.com" class="body-4 sidebar-link">booking@grilli.com</a>
-
           <div class="separator"></div>
-
           <p class="contact-label">Booking Request</p>
-
-          <a href="tel:+88123123456" class="body-1 contact-number hover-underline">
-            +91 1010101010
-          </a>
+          <a href="tel:+911010101010" class="body-1 contact-number hover-underline">+91 1010101010</a>
         </div>
-
       </nav>
 
-      <a href="#" class="btn btn-secondary">
+      <a href="#reservation" class="btn btn-secondary" aria-label="Find a table">
         <span class="text text-1">Find A Table</span>
-
         <span class="text text-2" aria-hidden="true">Find A Table</span>
       </a>
 
-      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+      <button class="nav-open-btn" aria-label="Open menu" data-nav-toggler>
         <span class="line line-1"></span>
         <span class="line line-2"></span>
         <span class="line line-3"></span>
       </button>
 
-      <div class="overlay" data-nav-toggler data-overlay></div>
-
+      <div class="overlay" data-nav-toggler data-overlay aria-hidden="true"></div>
     </div>
   </header>
 
-
-
-
-
-  <main>
+  <main id="main-content">
     <article>
-
-      <!-- 
-        - #HERO
-      -->
-
-      <section class="hero text-center" aria-label="home" id="home">
+      <!-- HERO -->
+      <section class="hero text-center" aria-label="Home" id="home">
+        <h1 class="visually-hidden">Grilli Restaurant — Fine Dining in Ghatkopar, Mumbai</h1>
 
         <ul class="hero-slider" data-hero-slider>
-
           <li class="slider-item active" data-hero-slider-item>
-
             <div class="slider-bg">
-              <img src="./assets/images/hero-slider-1.jpg" width="1880" height="950" alt="" class="img-cover">
+              <img src="./assets/images/hero-slider-1.jpg" width="1880" height="950" alt="Elegant dining ambiance at Grilli Restaurant in Ghatkopar, Mumbai" class="img-cover">
             </div>
-
-            <p class="label-2 section-subtitle slider-reveal">Tradational & Hygine</p>
-
-            <h1 class="display-1 hero-title slider-reveal">
-              For the love of <br>
-              delicious food
-            </h1>
-
-            <p class="body-2 hero-text slider-reveal">
-              Come with family & feel the joy of mouthwatering food
-            </p>
-
-            <a href="#" class="btn btn-primary slider-reveal">
+            <p class="label-2 section-subtitle slider-reveal">Traditional &amp; Hygienic</p>
+            <h2 class="display-1 hero-title slider-reveal">For the love of delicious food</h2>
+            <p class="body-2 hero-text slider-reveal">Bring your family and enjoy our chef-curated Italian, Continental, and Indian dishes.</p>
+            <a href="#menu" class="btn btn-primary slider-reveal" aria-label="View Grilli Restaurant Menu">
               <span class="text text-1">View Our Menu</span>
-
               <span class="text text-2" aria-hidden="true">View Our Menu</span>
             </a>
-
           </li>
 
           <li class="slider-item" data-hero-slider-item>
-
             <div class="slider-bg">
-              <img src="./assets/images/hero-slider-2.jpg" width="1880" height="950" alt="" class="img-cover">
+              <img src="./assets/images/hero-slider-2.jpg" width="1880" height="950" alt="Seasonal specialties plated beautifully at Grilli" class="img-cover" loading="lazy">
             </div>
-
-            <p class="label-2 section-subtitle slider-reveal">delightful experience</p>
-
-            <h1 class="display-1 hero-title slider-reveal">
-              Flavors Inspired by <br>
-              the Seasons
-            </h1>
-
-            <p class="body-2 hero-text slider-reveal">
-              Come with family & feel the joy of mouthwatering food
-            </p>
-
-            <a href="#" class="btn btn-primary slider-reveal">
-              <span class="text text-1">View Our Menu</span>
-
-              <span class="text text-2" aria-hidden="true">View Our Menu</span>
+            <p class="label-2 section-subtitle slider-reveal">Delightful Experience</p>
+            <h2 class="display-1 hero-title slider-reveal">Flavors inspired by the seasons</h2>
+            <p class="body-2 hero-text slider-reveal">Taste the freshest ingredients and seasonal specials crafted daily.</p>
+            <a href="#menu" class="btn btn-primary slider-reveal" aria-label="Explore seasonal dishes on our menu">
+              <span class="text text-1">Explore Menu</span>
+              <span class="text text-2" aria-hidden="true">Explore Menu</span>
             </a>
-
           </li>
 
           <li class="slider-item" data-hero-slider-item>
-
             <div class="slider-bg">
-              <img src="./assets/images/hero-slider-3.jpg" width="1880" height="950" alt="" class="img-cover">
+              <img src="./assets/images/hero-slider-3.jpg" width="1880" height="950" alt="Close-up of signature dish at Grilli Restaurant" class="img-cover" loading="lazy">
             </div>
-
-            <p class="label-2 section-subtitle slider-reveal">amazing & delicious</p>
-
-            <h1 class="display-1 hero-title slider-reveal">
-              Where every flavor <br>
-              tells a story
-            </h1>
-
-            <p class="body-2 hero-text slider-reveal">
-              Come with family & feel the joy of mouthwatering food
-            </p>
-
-            <a href="#" class="btn btn-primary slider-reveal">
-              <span class="text text-1">View Our Menu</span>
-
-              <span class="text text-2" aria-hidden="true">View Our Menu</span>
+            <p class="label-2 section-subtitle slider-reveal">Amazing &amp; Delicious</p>
+            <h2 class="display-1 hero-title slider-reveal">Where every flavor tells a story</h2>
+            <p class="body-2 hero-text slider-reveal">Experience nostalgic classics and modern plates in one place.</p>
+            <a href="#reservation" class="btn btn-primary slider-reveal" aria-label="Reserve a table at Grilli Restaurant">
+              <span class="text text-1">Reserve Now</span>
+              <span class="text text-2" aria-hidden="true">Reserve Now</span>
             </a>
-
           </li>
-
         </ul>
 
-        <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+        <button class="slider-btn prev" aria-label="Previous slide" data-prev-btn>
           <ion-icon name="chevron-back"></ion-icon>
         </button>
-
-        <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+        <button class="slider-btn next" aria-label="Next slide" data-next-btn>
           <ion-icon name="chevron-forward"></ion-icon>
         </button>
 
-        <a href="#" class="hero-btn has-after">
-          <img src="./assets/images/hero-icon.png" width="48" height="48" alt="booking icon">
-
+        <a href="#reservation" class="hero-btn has-after" aria-label="Book a table at Grilli">
+          <img src="./assets/images/hero-icon.png" width="48" height="48" alt="Booking icon">
           <span class="label-2 text-center span">Book A Table</span>
         </a>
-
       </section>
 
-
-
-
-
-      <!-- 
-        - #SERVICE
-      -->
-
-      <section class="section service bg-black-10 text-center" aria-label="service">
+      <!-- SERVICES -->
+      <section class="section service bg-black-10 text-center" aria-labelledby="services-title" id="services">
         <div class="container">
-
           <p class="section-subtitle label-2">Flavors For Royalty</p>
-
-          <h2 class="headline-1 section-title">We Offer Top Notch</h2>
-
-          <p class="section-text">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the industrys
-            standard dummy text ever.
-          </p>
+          <h2 class="headline-1 section-title" id="services-title">Top-notch Selections</h2>
+          <p class="section-text">From hearty breakfasts to small plates and seasonal drinks, our menu balances comfort with creativity.</p>
 
           <ul class="grid-list">
-
             <li>
               <div class="service-card">
-
-                <a href="#" class="has-before hover:shine">
+                <a href="#menu" class="has-before hover:shine" aria-label="See Breakfast menu">
                   <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
-                    <img src="./assets/images/service-1.jpg" width="285" height="336" loading="lazy" alt="Breakfast"
-                      class="img-cover">
+                    <img src="./assets/images/service-1.jpg" width="285" height="336" loading="lazy" alt="Breakfast options at Grilli including pancakes and fresh fruit" class="img-cover">
                   </figure>
                 </a>
-
                 <div class="card-content">
-
-                  <h3 class="title-4 card-title">
-                    <a href="#">Breakfast</a>
-                  </h3>
-
-                  <a href="#" class="btn-text hover-underline label-2">View Menu</a>
-
+                  <h3 class="title-4 card-title"><a href="#menu">Breakfast</a></h3>
+                  <a href="#menu" class="btn-text hover-underline label-2">View Breakfast Menu</a>
                 </div>
-
               </div>
             </li>
 
             <li>
               <div class="service-card">
-
-                <a href="#" class="has-before hover:shine">
+                <a href="#menu" class="has-before hover:shine" aria-label="See Appetizers menu">
                   <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
-                    <img src="./assets/images/service-2.jpg" width="285" height="336" loading="lazy" alt="Appetizers"
-                      class="img-cover">
+                    <img src="./assets/images/service-2.jpg" width="285" height="336" loading="lazy" alt="Assorted appetizers including bruschetta and dips" class="img-cover">
                   </figure>
                 </a>
-
                 <div class="card-content">
-
-                  <h3 class="title-4 card-title">
-                    <a href="#">Appetizers</a>
-                  </h3>
-
-                  <a href="#" class="btn-text hover-underline label-2">View Menu</a>
-
+                  <h3 class="title-4 card-title"><a href="#menu">Appetizers</a></h3>
+                  <a href="#menu" class="btn-text hover-underline label-2">View Appetizers</a>
                 </div>
-
               </div>
             </li>
 
             <li>
               <div class="service-card">
-
-                <a href="#" class="has-before hover:shine">
+                <a href="#menu" class="has-before hover:shine" aria-label="See Drinks menu">
                   <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
-                    <img src="./assets/images/service-3.jpg" width="285" height="336" loading="lazy" alt="Drinks"
-                      class="img-cover">
+                    <img src="./assets/images/service-3.jpg" width="285" height="336" loading="lazy" alt="Signature mocktails and beverages at Grilli" class="img-cover">
                   </figure>
                 </a>
-
                 <div class="card-content">
-
-                  <h3 class="title-4 card-title">
-                    <a href="#">Drinks</a>
-                  </h3>
-
-                  <a href="#" class="btn-text hover-underline label-2">View Menu</a>
-
+                  <h3 class="title-4 card-title"><a href="#menu">Drinks</a></h3>
+                  <a href="#menu" class="btn-text hover-underline label-2">View Drinks</a>
                 </div>
-
               </div>
             </li>
-
           </ul>
 
-          <img src="./assets/images/shape-1.png" width="246" height="412" loading="lazy" alt="shape"
-            class="shape shape-1 move-anim">
-          <img src="./assets/images/shape-2.png" width="343" height="345" loading="lazy" alt="shape"
-            class="shape shape-2 move-anim">
-
+          <img src="./assets/images/shape-1.png" width="246" height="412" loading="lazy" alt="Decorative shape" class="shape shape-1 move-anim">
+          <img src="./assets/images/shape-2.png" width="343" height="345" loading="lazy" alt="Decorative shape" class="shape shape-2 move-anim">
         </div>
       </section>
 
-
-
-
-
-      <!-- 
-        - #ABOUT
-      -->
-
-      <section class="section about text-center" aria-labelledby="about-label" id="about">
+      <!-- ABOUT -->
+      <section class="section about text-center" aria-labelledby="about-title" id="about">
         <div class="container">
-
           <div class="about-content">
-
             <p class="label-2 section-subtitle" id="about-label">Our Story</p>
-
-            <h2 class="headline-1 section-title">Every Fla vor Tells a Story</h2>
-
-            <p class="section-text">
-              Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem Ipsum has been the
-              industrys standard dummy text ever since the when an unknown printer took a galley of type and scrambled
-              it to make a type specimen book It has survived not only five centuries, but also the leap into.
-            </p>
-
+            <h2 class="headline-1 section-title" id="about-title">Every Flavor Tells a Story</h2>
+            <p class="section-text">Rooted in Mumbai’s culinary heritage, Grilli brings you chef-led plates with high-quality ingredients and impeccable hygiene. Whether you crave a classic lasagne or a modern mocktail, we make every meal memorable.</p>
             <div class="contact-label">Book Through Call</div>
-
-            <a href="tel:+804001234567" class="body-1 contact-number hover-underline">+91 1010101010</a>
-
-            <a href="#" class="btn btn-primary">
+            <a href="tel:+911010101010" class="body-1 contact-number hover-underline">+91 1010101010</a>
+            <a href="#about" class="btn btn-primary" aria-label="Read more about Grilli Restaurant">
               <span class="text text-1">Read More</span>
-
               <span class="text text-2" aria-hidden="true">Read More</span>
             </a>
-
           </div>
 
           <figure class="about-banner">
-
-            <img src="./assets/images/about-banner.jpg" width="570" height="570" loading="lazy" alt="about banner"
-              class="w-100" data-parallax-item data-parallax-speed="1">
-
+            <img src="./assets/images/about-banner.jpg" width="570" height="570" loading="lazy" alt="Dining room at Grilli Restaurant in Mumbai" class="w-100" data-parallax-item data-parallax-speed="1">
             <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
-              <img src="./assets/images/about-abs-image.jpg" width="285" height="285" loading="lazy" alt=""
-                class="w-100">
+              <img src="./assets/images/about-abs-image.jpg" width="285" height="285" loading="lazy" alt="Chef plating at Grilli" class="w-100">
             </div>
-
             <div class="abs-img abs-img-2 has-before">
-              <img src="./assets/images/badge-2.png" width="133" height="134" loading="lazy" alt="">
+              <img src="./assets/images/badge-2.png" width="133" height="134" loading="lazy" alt="Quality badge">
             </div>
-
           </figure>
 
-          <img src="./assets/images/shape-3.png" width="197" height="194" loading="lazy" alt="" class="shape">
-
+          <img src="./assets/images/shape-3.png" width="197" height="194" loading="lazy" alt="Decorative shape" class="shape">
         </div>
       </section>
 
-
-
-
-
-      <!-- 
-        - #SPECIAL DISH
-      -->
-
-      <section class="special-dish text-center" aria-labelledby="dish-label">
-
+      <!-- SPECIAL DISH -->
+      <section class="special-dish text-center" aria-labelledby="special-dish-title">
         <div class="special-dish-banner">
-          <img src="./assets/images/special-dish-banner.jpg" width="940" height="900" loading="lazy" alt="special dish"
-            class="img-cover">
+          <img src="./assets/images/special-dish-banner.jpg" width="940" height="900" loading="lazy" alt="Special dish banner showing pasta with lobster" class="img-cover">
         </div>
 
         <div class="special-dish-content bg-black-10">
           <div class="container">
-
-            <img src="./assets/images/badge-1.png" width="28" height="41" loading="lazy" alt="badge" class="abs-img">
-
-            <p class="section-subtitle label-2">Special Dish</p>
-
-            <h2 class="headline-1 section-title">Lobster Tortellini</h2>
-
-            <p class="section-text">
-              Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem Ipsum has been the
-              industrys standard dummy text ever since the when an unknown printer took a galley of type.
-            </p>
-
+            <img src="./assets/images/badge-1.png" width="28" height="41" loading="lazy" alt="Chef special badge" class="abs-img">
+            <p class="section-subtitle label-2">Chef's Special</p>
+            <h2 class="headline-1 section-title" id="special-dish-title">Lobster Tortellini</h2>
+            <p class="section-text">Fresh pasta filled with lobster, finished with a silky sauce and herbs.</p>
             <div class="wrapper">
               <del class="del body-3">₹40.00</del>
-
               <span class="span body-1">₹20.00</span>
             </div>
-
-            <a href="#" class="btn btn-primary">
+            <a href="#menu" class="btn btn-primary" aria-label="View all menu items">
               <span class="text text-1">View All Menu</span>
-
               <span class="text text-2" aria-hidden="true">View All Menu</span>
             </a>
-
           </div>
         </div>
 
-        <img src="./assets/images/shape-4.png" width="179" height="359" loading="lazy" alt="" class="shape shape-1">
-
-        <img src="./assets/images/shape-9.png" width="351" height="462" loading="lazy" alt="" class="shape shape-2">
-
+        <img src="./assets/images/shape-4.png" width="179" height="359" loading="lazy" alt="Decorative shape" class="shape shape-1">
+        <img src="./assets/images/shape-9.png" width="351" height="462" loading="lazy" alt="Decorative shape" class="shape shape-2">
       </section>
 
-
-
-
-
-      <!-- 
-        - #MENU
-      -->
-
-      <section class="section menu" aria-label="menu-label" id="menu">
+      <!-- MENU -->
+      <section class="section menu" aria-labelledby="menu-title" id="menu">
         <div class="container">
-
           <p class="section-subtitle text-center label-2">Special Selection</p>
-
-          <h2 class="headline-1 section-title text-center">Delicious Menu</h2>
+          <h2 class="headline-1 section-title text-center" id="menu-title">Delicious Menu</h2>
 
           <ul class="grid-list">
-
             <li>
               <div class="menu-card hover:card">
-
                 <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
-                  <img src="./assets/images/menu-1.png" width="100" height="100" loading="lazy" alt="Greek Salad"
-                    class="img-cover">
+                  <img src="./assets/images/menu-1.png" width="100" height="100" loading="lazy" alt="Greek Salad with olives, feta, and cucumber" class="img-cover">
                 </figure>
-
                 <div>
-
                   <div class="title-wrapper">
-                    <h3 class="title-3">
-                      <a href="#" class="card-title">Greek Salad</a>
-                    </h3>
-
+                    <h3 class="title-3"><a href="#menu" class="card-title">Greek Salad</a></h3>
                     <span class="badge label-1">Seasonal</span>
-
                     <span class="span title-2">₹25.50</span>
                   </div>
-
-                  <p class="card-text label-1">
-                    Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.
-                  </p>
-
+                  <p class="card-text label-1">Tomatoes, bell pepper, cucumber, onion, olives, and feta cheese.</p>
                 </div>
-
               </div>
             </li>
 
             <li>
               <div class="menu-card hover:card">
-
                 <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
-                  <img src="./assets/images/menu-2.png" width="100" height="100" loading="lazy" alt="Lasagne"
-                    class="img-cover">
+                  <img src="./assets/images/menu-2.png" width="100" height="100" loading="lazy" alt="Classic lasagne layered with cheese and sauce" class="img-cover">
                 </figure>
-
                 <div>
-
                   <div class="title-wrapper">
-                    <h3 class="title-3">
-                      <a href="#" class="card-title">Lasagne</a>
-                    </h3>
-
+                    <h3 class="title-3"><a href="#menu" class="card-title">Lasagne</a></h3>
                     <span class="span title-2">₹40.00</span>
                   </div>
-
-                  <p class="card-text label-1">
-                    Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices
-                  </p>
-
+                  <p class="card-text label-1">Vegetables, cheeses, meats, tomato sauce, and spices.</p>
                 </div>
-
               </div>
             </li>
 
             <li>
               <div class="menu-card hover:card">
-
                 <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
-                  <img src="./assets/images/menu-3.png" width="100" height="100" loading="lazy" alt="Butternut Pumpkin"
-                    class="img-cover">
+                  <img src="./assets/images/menu-3.png" width="100" height="100" loading="lazy" alt="Roasted butternut pumpkin" class="img-cover">
                 </figure>
-
                 <div>
-
                   <div class="title-wrapper">
-                    <h3 class="title-3">
-                      <a href="#" class="card-title">Butternut Pumpkin</a>
-                    </h3>
-
+                    <h3 class="title-3"><a href="#menu" class="card-title">Butternut Pumpkin</a></h3>
                     <span class="span title-2">₹10.00</span>
                   </div>
-
-                  <p class="card-text label-1">
-                    Typesetting industry lorem Lorem Ipsum is simply dummy text of the priand.
-                  </p>
-
+                  <p class="card-text label-1">Sweet roasted pumpkin with herbs and a hint of butter.</p>
                 </div>
-
               </div>
             </li>
 
             <li>
               <div class="menu-card hover:card">
-
                 <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
-                  <img src="./assets/images/menu-4.png" width="100" height="100" loading="lazy" alt="Tokusen Wagyu"
-                    class="img-cover">
+                  <img src="./assets/images/menu-4.png" width="100" height="100" loading="lazy" alt="Tokusen Wagyu steak" class="img-cover">
                 </figure>
-
                 <div>
-
                   <div class="title-wrapper">
-                    <h3 class="title-3">
-                      <a href="#" class="card-title">Tokusen Wagyu</a>
-                    </h3>
-
+                    <h3 class="title-3"><a href="#menu" class="card-title">Tokusen Wagyu</a></h3>
                     <span class="badge label-1">New</span>
-
                     <span class="span title-2">₹39.00</span>
                   </div>
-
-                  <p class="card-text label-1">
-                    Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices.
-                  </p>
-
+                  <p class="card-text label-1">Seared wagyu with seasonal vegetables and sauce.</p>
                 </div>
-
               </div>
             </li>
 
             <li>
               <div class="menu-card hover:card">
-
                 <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
-                  <img src="./assets/images/menu-5.png" width="100" height="100" loading="lazy" alt="Olivas Rellenas"
-                    class="img-cover">
+                  <img src="./assets/images/menu-5.png" width="100" height="100" loading="lazy" alt="Olivas Rellenas appetizer" class="img-cover">
                 </figure>
-
                 <div>
-
                   <div class="title-wrapper">
-                    <h3 class="title-3">
-                      <a href="#" class="card-title">Olivas Rellenas</a>
-                    </h3>
-
+                    <h3 class="title-3"><a href="#menu" class="card-title">Olivas Rellenas</a></h3>
                     <span class="span title-2">₹25.00</span>
                   </div>
-
-                  <p class="card-text label-1">
-                    Avocados with crab meat, red onion, crab salad stuffed red bell pepper and green bell pepper.
-                  </p>
-
+                  <p class="card-text label-1">Avocados with crab meat, onion, and stuffed peppers.</p>
                 </div>
-
               </div>
             </li>
 
             <li>
               <div class="menu-card hover:card">
-
                 <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
-                  <img src="./assets/images/menu-6.png" width="100" height="100" loading="lazy" alt="Opu Fish"
-                    class="img-cover">
+                  <img src="./assets/images/menu-6.png" width="100" height="100" loading="lazy" alt="Opu Fish main course" class="img-cover">
                 </figure>
-
                 <div>
-
                   <div class="title-wrapper">
-                    <h3 class="title-3">
-                      <a href="#" class="card-title">Opu Fish</a>
-                    </h3>
-
+                    <h3 class="title-3"><a href="#menu" class="card-title">Opu Fish</a></h3>
                     <span class="span title-2">₹49.00</span>
                   </div>
-
-                  <p class="card-text label-1">
-                    Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices
-                  </p>
-
+                  <p class="card-text label-1">Fresh catch with herbs, vegetables, and house sauce.</p>
                 </div>
-
               </div>
             </li>
-
           </ul>
 
-          <p class="menu-text text-center">
-            During winter daily from <span class="span">7:00 pm</span> to <span class="span">9:00 pm</span>
-          </p>
-
-          <a href="#" class="btn btn-primary">
+          <p class="menu-text text-center">Winter service: <span class="span">7:00 pm</span> to <span class="span">9:00 pm</span></p>
+          <a href="#menu" class="btn btn-primary" aria-label="View all menu items">
             <span class="text text-1">View All Menu</span>
-
             <span class="text text-2" aria-hidden="true">View All Menu</span>
           </a>
 
-          <img src="./assets/images/shape-5.png" width="921" height="1036" loading="lazy" alt="shape"
-            class="shape shape-2 move-anim">
-          <img src="./assets/images/shape-6.png" width="343" height="345" loading="lazy" alt="shape"
-            class="shape shape-3 move-anim">
-
+          <img src="./assets/images/shape-5.png" width="921" height="1036" loading="lazy" alt="Decorative shape" class="shape shape-2 move-anim">
+          <img src="./assets/images/shape-6.png" width="343" height="345" loading="lazy" alt="Decorative shape" class="shape shape-3 move-anim">
         </div>
       </section>
 
-
-
-
-
-      <!-- 
-        - #TESTIMONIALS
-      -->
-
-      <section class="section testi text-center has-bg-image"
-        style="background-image: url('./assets/images/testimonial-bg.jpg')" aria-label="testimonials">
+      <!-- TESTIMONIALS -->
+      <section class="section testi text-center has-bg-image" style="background-image: url('./assets/images/testimonial-bg.jpg')" aria-labelledby="testimonials-title">
         <div class="container">
-
-          <div class="quote">”</div>
-
-          <p class="headline-2 testi-text">
-            I wanted to thank you for inviting me down for that amazing dinner the other night. The food was
-            extraordinary.
-          </p>
-
-          <div class="wrapper">
-            <div class="separator"></div>
-            <div class="separator"></div>
-            <div class="separator"></div>
+          <div class="quote" aria-hidden="true">”</div>
+          <h2 class="headline-1 section-title" id="testimonials-title">What Our Guests Say</h2>
+          <p class="headline-2 testi-text">“Thank you for that amazing dinner — the food was extraordinary!”</p>
+          <div class="wrapper" aria-hidden="true">
+            <div class="separator"></div><div class="separator"></div><div class="separator"></div>
           </div>
-
           <div class="profile">
-            <img src="./assets/images/testi-avatar.jpg" width="100" height="100" loading="lazy" alt="Sam Jhonson"
-              class="img">
-
-            <p class="label-2 profile-name">Sam Jhonson</p>
+            <img src="./assets/images/testi-avatar.jpg" width="100" height="100" loading="lazy" alt="Portrait of guest Sam Johnson" class="img">
+            <p class="label-2 profile-name">Sam Johnson</p>
           </div>
-
         </div>
       </section>
 
-
-
-
-
-      <!-- 
-        - #RESERVATION
-      -->
-
-      <section class="reservation">
+      <!-- RESERVATION -->
+      <section class="reservation" id="reservation" aria-labelledby="reservation-title">
         <div class="container">
-
           <div class="form reservation-form bg-black-10">
-
-            <form action="" class="form-left">
-
-              <h2 class="headline-1 text-center">Online Reservation</h2>
-
-              <p class="form-text text-center">
-                Booking request <a href="tel:+88123123456" class="link">+91 1010101010</a>
-                or fill out the order form
+            <form action="" class="form-left" aria-describedby="reservation-helper">
+              <h2 class="headline-1 text-center" id="reservation-title">Online Reservation</h2>
+              <p class="form-text text-center" id="reservation-helper">
+                Booking request <a href="tel:+911010101010" class="link">+91 1010101010</a> or fill out the order form
               </p>
 
               <div class="input-wrapper">
-                <input type="text" name="name" placeholder="Your Name" autocomplete="off" class="input-field">
+                <label class="sr-only" for="name">Your Name</label>
+                <input id="name" type="text" name="name" placeholder="Your Name" autocomplete="name" class="input-field" required>
 
-                <input type="tel" name="phone" placeholder="Phone Number" autocomplete="off" class="input-field">
+                <label class="sr-only" for="phone">Phone Number</label>
+                <input id="phone" type="tel" name="phone" placeholder="Phone Number" autocomplete="tel" class="input-field" required>
               </div>
 
               <div class="input-wrapper">
-
                 <div class="icon-wrapper">
                   <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
-
-                  <select name="person" class="input-field">
-                    <option value="1-person">1 Person</option>
-                    <option value="2-person">2 Person</option>
-                    <option value="3-person">3 Person</option>
-                    <option value="4-person">4 Person</option>
-                    <option value="5-person">5 Person</option>
-                    <option value="6-person">6 Person</option>
-                    <option value="7-person">7 Person</option>
+                  <label class="sr-only" for="person">Number of People</label>
+                  <select id="person" name="person" class="input-field">
+                    <option value="1">1 Person</option>
+                    <option value="2">2 People</option>
+                    <option value="3">3 People</option>
+                    <option value="4">4 People</option>
+                    <option value="5">5 People</option>
+                    <option value="6">6 People</option>
+                    <option value="7">7 People</option>
                   </select>
-
                   <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
                 </div>
 
                 <div class="icon-wrapper">
                   <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
-
-                  <input type="date" name="reservation-date" class="input-field">
-
+                  <label class="sr-only" for="reservation-date">Reservation Date</label>
+                  <input id="reservation-date" type="date" name="reservation-date" class="input-field" required>
                   <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
                 </div>
 
                 <div class="icon-wrapper">
                   <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
-
-                  <select name="person" class="input-field">
+                  <label class="sr-only" for="reservation-time">Reservation Time</label>
+                  <select id="reservation-time" name="reservation-time" class="input-field">
                     <option value="08:00am">08 : 00 am</option>
                     <option value="09:00am">09 : 00 am</option>
-                    <option value="010:00am">10 : 00 am</option>
-                    <option value="011:00am">11 : 00 am</option>
-                    <option value="012:00am">12 : 00 am</option>
+                    <option value="10:00am">10 : 00 am</option>
+                    <option value="11:00am">11 : 00 am</option>
+                    <option value="12:00pm">12 : 00 pm</option>
                     <option value="01:00pm">01 : 00 pm</option>
                     <option value="02:00pm">02 : 00 pm</option>
                     <option value="03:00pm">03 : 00 pm</option>
@@ -846,387 +537,203 @@
                     <option value="09:00pm">09 : 00 pm</option>
                     <option value="10:00pm">10 : 00 pm</option>
                   </select>
-
                   <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
                 </div>
-
               </div>
 
-              <textarea name="message" placeholder="Message" autocomplete="off" class="input-field"></textarea>
+              <label class="sr-only" for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Message" autocomplete="off" class="input-field"></textarea>
 
               <button type="submit" class="btn btn-secondary">
                 <span class="text text-1">Book A Table</span>
-
                 <span class="text text-2" aria-hidden="true">Book A Table</span>
               </button>
-
             </form>
 
-            <div class="form-right text-center" style="background-image: url('./assets/images/form-pattern.png')">
-
+            <div class="form-right text-center" style="background-image: url('./assets/images/form-pattern.png')" id="contact">
               <h2 class="headline-1 text-center">Contact Us</h2>
-
               <p class="contact-label">Booking Request</p>
-
-              <a href="tel:+88123123456" class="body-1 contact-number hover-underline">+91 1010101010</a>
-
+              <a href="tel:+911010101010" class="body-1 contact-number hover-underline">+91 1010101010</a>
               <div class="separator"></div>
-
               <p class="contact-label">Location</p>
-
-              <address class="body-4">
-                Restaurant, Ghatkopar, <br>
-                Mumbai, Maharashtra, India
-              </address>
-
+              <address class="body-4">Ghatkopar, Mumbai, Maharashtra, India</address>
               <p class="contact-label">Lunch Time</p>
-
-              <p class="body-4">
-                Monday to Sunday <br>
-                11.00 am - 2.30pm
-              </p>
-
+              <p class="body-4">Monday to Sunday <br> 11:00 am – 2:30 pm</p>
               <p class="contact-label">Dinner Time</p>
-
-              <p class="body-4">
-                Monday to Sunday <br>
-                05.00 pm - 10.00pm
-              </p>
-
+              <p class="body-4">Monday to Sunday <br> 05:00 pm – 10:00 pm</p>
             </div>
-
           </div>
-
         </div>
       </section>
 
-
-
-
-
-      <!-- 
-        - #FEATURES
-      -->
-
-      <section class="section features text-center" aria-label="features">
+      <!-- FEATURES -->
+      <section class="section features text-center" aria-labelledby="features-title" id="features">
         <div class="container">
-
           <p class="section-subtitle label-2">Why Choose Us</p>
-
-          <h2 class="headline-1 section-title">Our Strength</h2>
-
+          <h2 class="headline-1 section-title" id="features-title">Our Strength</h2>
           <ul class="grid-list">
-
             <li class="feature-item">
               <div class="feature-card">
-
                 <div class="card-icon">
-                  <img src="./assets/images/features-icon-1.png" width="100" height="80" loading="lazy" alt="icon">
+                  <img src="./assets/images/features-icon-1.png" width="100" height="80" loading="lazy" alt="Hygienic food icon">
                 </div>
-
                 <h3 class="title-2 card-title">Hygienic Food</h3>
-
-                <p class="label-1 card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
-
+                <p class="label-1 card-text">Kitchen-first hygiene and quality checks on every dish.</p>
               </div>
             </li>
-
             <li class="feature-item">
               <div class="feature-card">
-
                 <div class="card-icon">
-                  <img src="./assets/images/features-icon-2.png" width="100" height="80" loading="lazy" alt="icon">
+                  <img src="./assets/images/features-icon-2.png" width="100" height="80" loading="lazy" alt="Fresh environment icon">
                 </div>
-
                 <h3 class="title-2 card-title">Fresh Environment</h3>
-
-                <p class="label-1 card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
-
+                <p class="label-1 card-text">Airy ambience and warm hospitality for all occasions.</p>
               </div>
             </li>
-
             <li class="feature-item">
               <div class="feature-card">
-
                 <div class="card-icon">
-                  <img src="./assets/images/features-icon-3.png" width="100" height="80" loading="lazy" alt="icon">
+                  <img src="./assets/images/features-icon-3.png" width="100" height="80" loading="lazy" alt="Skilled chefs icon">
                 </div>
-
                 <h3 class="title-2 card-title">Skilled Chefs</h3>
-
-                <p class="label-1 card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
-
+                <p class="label-1 card-text">Experienced chefs crafting plates with precision.</p>
               </div>
             </li>
-
             <li class="feature-item">
               <div class="feature-card">
-
                 <div class="card-icon">
-                  <img src="./assets/images/features-icon-4.png" width="100" height="80" loading="lazy" alt="icon">
+                  <img src="./assets/images/features-icon-4.png" width="100" height="80" loading="lazy" alt="Event & party icon">
                 </div>
-
                 <h3 class="title-2 card-title">Event & Party</h3>
-
-                <p class="label-1 card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
-
+                <p class="label-1 card-text">From birthdays to business dinners — we host it well.</p>
               </div>
             </li>
-
           </ul>
 
-          <img src="./assets/images/shape-7.png" width="208" height="178" loading="lazy" alt="shape"
-            class="shape shape-1">
-
-          <img src="./assets/images/shape-8.png" width="120" height="115" loading="lazy" alt="shape"
-            class="shape shape-2">
-
+          <img src="./assets/images/shape-7.png" width="208" height="178" loading="lazy" alt="Decorative shape" class="shape shape-1">
+          <img src="./assets/images/shape-8.png" width="120" height="115" loading="lazy" alt="Decorative shape" class="shape shape-2">
         </div>
       </section>
 
-
-
-
-
-      <!-- 
-        - #EVENT
-      -->
-
-      <section class="section event bg-black-10" aria-label="event">
+      <!-- EVENTS / BLOG -->
+      <section class="section event bg-black-10" aria-labelledby="events-title" id="events">
         <div class="container">
-
           <p class="section-subtitle label-2 text-center">Recent Updates</p>
-
-          <h2 class="section-title headline-1 text-center">Upcoming Event</h2>
-
+          <h2 class="section-title headline-1 text-center" id="events-title">Upcoming Events</h2>
           <ul class="grid-list">
-
             <li>
               <div class="event-card has-before hover:shine">
-
                 <div class="card-banner img-holder" style="--width: 350; --height: 450;">
-                  <img src="./assets/images/event-1.jpg" width="350" height="450" loading="lazy"
-                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
-
+                  <img src="./assets/images/event-1.jpg" width="350" height="450" loading="lazy" alt="Tasting event at Grilli" class="img-cover">
                   <time class="publish-date label-2" datetime="2022-09-15">15/09/2022</time>
                 </div>
-
                 <div class="card-content">
-                  <p class="card-subtitle label-2 text-center">Food, Flavour</p>
-
-                  <h3 class="card-title title-2 text-center">
-                    Flavour so good you’ll try to eat with your eyes.
-                  </h3>
+                  <p class="card-subtitle label-2 text-center">Food, Flavor</p>
+                  <h3 class="card-title title-2 text-center">Flavour so good you’ll try to eat with your eyes.</h3>
                 </div>
-
               </div>
             </li>
-
             <li>
               <div class="event-card has-before hover:shine">
-
                 <div class="card-banner img-holder" style="--width: 350; --height: 450;">
-                  <img src="./assets/images/event-2.jpg" width="350" height="450" loading="lazy"
-                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
-
+                  <img src="./assets/images/event-2.jpg" width="350" height="450" loading="lazy" alt="Healthy food workshop" class="img-cover">
                   <time class="publish-date label-2" datetime="2022-09-08">08/09/2022</time>
                 </div>
-
                 <div class="card-content">
                   <p class="card-subtitle label-2 text-center">Healthy Food</p>
-
-                  <h3 class="card-title title-2 text-center">
-                    Flavour so good you’ll try to eat with your eyes.
-                  </h3>
+                  <h3 class="card-title title-2 text-center">Eat well, feel great — wellness week.</h3>
                 </div>
-
               </div>
             </li>
-
             <li>
               <div class="event-card has-before hover:shine">
-
                 <div class="card-banner img-holder" style="--width: 350; --height: 450;">
-                  <img src="./assets/images/event-3.jpg" width="350" height="450" loading="lazy"
-                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
-
+                  <img src="./assets/images/event-3.jpg" width="350" height="450" loading="lazy" alt="Chef's recipe masterclass" class="img-cover">
                   <time class="publish-date label-2" datetime="2022-09-03">03/09/2022</time>
                 </div>
-
                 <div class="card-content">
-                  <p class="card-subtitle label-2 text-center">Recipie</p>
-
-                  <h3 class="card-title title-2 text-center">
-                    Flavour so good you’ll try to eat with your eyes.
-                  </h3>
+                  <p class="card-subtitle label-2 text-center">Recipe</p>
+                  <h3 class="card-title title-2 text-center">Behind the plate — chef masterclass.</h3>
                 </div>
-
               </div>
             </li>
-
           </ul>
 
-          <a href="#" class="btn btn-primary">
+          <a href="#events" class="btn btn-primary" aria-label="View our blog">
             <span class="text text-1">View Our Blog</span>
-
             <span class="text text-2" aria-hidden="true">View Our Blog</span>
           </a>
-
         </div>
       </section>
-
     </article>
   </main>
 
-
-
-
-
-  <!-- 
-    - #FOOTER
-  -->
-
-  <footer class="footer section has-bg-image text-center"
-    style="background-image: url('./assets/images/footer-bg.jpg')">
+  <!-- FOOTER -->
+  <footer class="footer section has-bg-image text-center" style="background-image: url('./assets/images/footer-bg.jpg')" role="contentinfo">
     <div class="container">
-
       <div class="footer-top grid-list">
-
         <div class="footer-brand has-before has-after">
-
-          <a href="#" class="logo">
-            <img src="./assets/images/logo.svg" width="160" height="50" loading="lazy" alt="grilli home">
+          <a href="#home" class="logo" aria-label="Go to home">
+            <img src="./assets/images/logo.svg" width="160" height="50" loading="lazy" alt="Grilli Restaurant logo">
           </a>
-
-          <address class="body-4">
-            Restaurant, Ghatkopar, Mumbai, Maharashtra, India
-          </address>
-
-          <a href="mailto:booking@grilli.com" class="body-4 contact-link">booking@restaurant.com</a>
-
-          <a href="tel:+88123123456" class="body-4 contact-link">Booking Request : +91 1010101010</a>
-
-          <p class="body-4">
-            Open : 09:00 am - 01:00 pm
-          </p>
-
-          <div class="wrapper">
-            <div class="separator"></div>
-            <div class="separator"></div>
-            <div class="separator"></div>
-          </div>
-
+          <address class="body-4">Grilli Restaurant, Ghatkopar, Mumbai, Maharashtra, India</address>
+          <a href="mailto:booking@restaurant.com" class="body-4 contact-link">booking@restaurant.com</a>
+          <a href="tel:+911010101010" class="body-4 contact-link">Booking Request: +91 1010101010</a>
+          <p class="body-4">Open: 09:00 am – 01:00 pm</p>
+          <div class="wrapper" aria-hidden="true"><div class="separator"></div><div class="separator"></div><div class="separator"></div></div>
           <p class="title-1">Get News & Offers</p>
-
-          <p class="label-1">
-            Subscribe us & Get <span class="span">25% Off.</span>
-          </p>
-
-          <form action="" class="input-wrapper">
+          <p class="label-1">Subscribe & get <span class="span">25% Off.</span></p>
+          <form action="" class="input-wrapper" aria-label="Subscribe to newsletter">
             <div class="icon-wrapper">
               <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
-
-              <input type="email" name="email_address" placeholder="Your email" autocomplete="off" class="input-field">
+              <label class="sr-only" for="email_address">Email</label>
+              <input id="email_address" type="email" name="email_address" placeholder="Your email" autocomplete="email" class="input-field" required>
             </div>
-
             <button type="submit" class="btn btn-secondary">
               <span class="text text-1">Subscribe</span>
-
               <span class="text text-2" aria-hidden="true">Subscribe</span>
             </button>
           </form>
-
         </div>
 
-        <ul class="footer-list">
-
-          <li>
-            <a href="#" class="label-2 footer-link hover-underline">Home</a>
-          </li>
-
-          <li>
-            <a href="#" class="label-2 footer-link hover-underline">Menus</a>
-          </li>
-
-          <li>
-            <a href="#" class="label-2 footer-link hover-underline">About Us</a>
-          </li>
-
-          <li>
-            <a href="#" class="label-2 footer-link hover-underline">Our Chefs</a>
-          </li>
-
-          <li>
-            <a href="#" class="label-2 footer-link hover-underline">Contact</a>
-          </li>
-
+        <ul class="footer-list" aria-label="Footer navigation">
+          <li><a href="#home" class="label-2 footer-link hover-underline">Home</a></li>
+          <li><a href="#menu" class="label-2 footer-link hover-underline">Menu</a></li>
+          <li><a href="#about" class="label-2 footer-link hover-underline">About</a></li>
+          <li><a href="#features" class="label-2 footer-link hover-underline">Why Us</a></li>
+          <li><a href="#contact" class="label-2 footer-link hover-underline">Contact</a></li>
         </ul>
 
-        <ul class="footer-list">
-
-          <li>
-            <a href="#" class="label-2 footer-link hover-underline">Facebook</a>
-          </li>
-
-          <li>
-            <a href="#" class="label-2 footer-link hover-underline">Instagram</a>
-          </li>
-
-          <li>
-            <a href="#" class="label-2 footer-link hover-underline">Twitter</a>
-          </li>
-
-          <li>
-            <a href="#" class="label-2 footer-link hover-underline">Youtube</a>
-          </li>
-
-          <li>
-            <a href="#" class="label-2 footer-link hover-underline">Google Map</a>
-          </li>
-
+        <ul class="footer-list" aria-label="Social links">
+          <li><a href="#" class="label-2 footer-link hover-underline" rel="me noopener" target="_blank">Facebook</a></li>
+          <li><a href="#" class="label-2 footer-link hover-underline" rel="me noopener" target="_blank">Instagram</a></li>
+          <li><a href="#" class="label-2 footer-link hover-underline" rel="me noopener" target="_blank">Twitter</a></li>
+          <li><a href="#" class="label-2 footer-link hover-underline" rel="me noopener" target="_blank">YouTube</a></li>
+          <li><a href="#" class="label-2 footer-link hover-underline" rel="noopener" target="_blank">Google Map</a></li>
         </ul>
-
       </div>
 
       <div class="footer-bottom">
-
-<!--         <p class="copyright">
-          &copy; 2022 Grilli. All Rights Reserved | Crafted by <a href="https://github.com/codewithsadee"
-            target="_blank" class="link">codewithsadee</a>
-        </p> -->
-
+        <!-- Intentionally left minimal for cleaner UI and to avoid duplicate external credits -->
       </div>
-
     </div>
   </footer>
 
-
-
-
-
-  <!-- 
-    - #BACK TO TOP
-  -->
-
-  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+  <!-- Back to Top -->
+  <a href="#top" class="back-top-btn active" aria-label="Back to top" data-back-top-btn>
     <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
   </a>
 
-
-
-
-
-  <!-- 
-    - custom js link
-  -->
+  <!-- Scripts -->
   <script src="./assets/js/script.js"></script>
-
-  <!-- 
-    - ionicon link
-  -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
+  <!-- Helper: Visually hidden class -->
+  <style>
+    .sr-only, .visually-hidden { position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+    .skip-to-content { position: absolute; left: -999px; top: -999px; background: #fff; padding: .5rem 1rem; z-index: 9999; }
+    .skip-to-content:focus { left: 1rem; top: 1rem; }
+  </style>
 </body>
-
 </html>
