@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://restaurant-jade-delta.vercel.app/sitemap.xml
